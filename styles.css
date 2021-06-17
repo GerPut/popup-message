@@ -1,0 +1,47 @@
+body {
+    background-color: #4C47F9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup {
+    border: 6px solid black;
+    border-radius: 100px;
+    text-align: center;
+    padding: 15px;
+    max-width: 300px;
+    margin: 15px;
+    color: #43EAFF;
+}
+
+.message {
+    position: relative;
+    height: 200px;
+    background-color: #4C47F9;
+    color: #43EAFF;
+    border: 6px solid #FFFDFF;
+    border-radius: 50px;
+    max-width: 500px;
+    margin: 15px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    border: 2px solid #FFFDFF;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.textmessage {
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    font-size: 30px;
+}
+
+.hide {
+    display: none;
+}
